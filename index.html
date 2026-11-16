@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>PHARMAMED - Regulatory Services in Poland | Monika Korycińska-Matyaszewska</title>
+<meta name="description" content="Regulatory affairs partner in Warsaw: registration and life-cycle maintenance of medicinal products, medical devices, FSMP and cosmetics in Poland and the EU.">
+<meta name="theme-color" content="#00A257">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-480.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-1920.webp 1920w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/barlow-semi-condensed-latin-600-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/barlow-latin-400-normal.woff2" crossorigin>
+<style>
+@font-face{font-family:"BSC";font-weight:600;font-display:swap;src:url(fonts/barlow-semi-condensed-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:"BSC";font-weight:600;font-display:swap;src:url(fonts/barlow-semi-condensed-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-024F}
+@font-face{font-family:"Barlow";font-weight:400;font-display:swap;src:url(fonts/barlow-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:"Barlow";font-weight:400;font-display:swap;src:url(fonts/barlow-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-024F}
+@font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:url(fonts/barlow-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:url(fonts/barlow-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-024F}
+:root{--g1:#00A257;--g2:#00B764;--g3:#00E07A;--g4:#00FE8A;--gd:#007A41;--gr:#8D8D8D;--k:#16191B;--t:#25292C;--s:#5A6066;--l:#DDE1E4;--c:#F2F4F5;--dk:#1C2124;--hh:72px;--gut:clamp(16px,3.4vw,56px);--w:1280px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:18px;line-height:1.6;color:var(--t);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:"BSC","Barlow",system-ui,sans-serif;font-weight:600;line-height:1.05;margin:0;color:var(--k);letter-spacing:-.005em}
+h2{font-size:clamp(34px,3.6vw,54px)}
+h3{font-size:24px;line-height:1.15}
+p{margin:0}
+.wrap{width:min(var(--w),100% - 2*var(--gut));margin-inline:auto}
+.btn{display:inline-flex;align-items:center;gap:14px;background:var(--gd);color:#fff;font-weight:600;font-size:18px;text-decoration:none;padding:16px 22px 16px 24px;border:0;border-radius:2px;cursor:pointer;line-height:1.2;transition:background .2s}
+.btn:hover{background:#00683A}
+.btn .st{display:grid;grid-template-columns:repeat(3,6px);grid-template-rows:repeat(3,6px);gap:2px}
+.btn .st i{background:#fff;opacity:.95}
+.btn .st i:nth-child(1){grid-area:3/1}.btn .st i:nth-child(2){grid-area:3/2}.btn .st i:nth-child(3){grid-area:3/3}.btn .st i:nth-child(4){grid-area:2/1}.btn .st i:nth-child(5){grid-area:2/2}.btn .st i:nth-child(6){grid-area:1/1}
+/* motif: step of squares from the logo */
+.steps{display:flex;gap:4px;align-items:flex-end}
+.steps i{display:block;width:12px;height:12px}
+.steps i:nth-child(1){background:var(--g1)}.steps i:nth-child(2){background:var(--g2)}.steps i:nth-child(3){background:var(--g3)}.steps i:nth-child(4){background:var(--g4)}
+/* header */
+.hd{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+.hd.sc{border-color:var(--l)}
+.hd .wrap{height:var(--hh);display:flex;align-items:center;gap:28px}
+.logo img{height:54px;width:auto}
+.nav{display:flex;gap:4px;margin-left:auto}
+.nav a{position:relative;text-decoration:none;font-weight:600;font-size:17px;padding:10px 12px;color:var(--t)}
+.nav a::after{content:"";position:absolute;left:12px;bottom:4px;width:8px;height:8px;background:var(--g1);opacity:0;transition:opacity .2s}
+.nav a:hover::after,.nav a.on::after{opacity:1}
+.hd .tel{font-weight:600;text-decoration:none;font-size:17px;white-space:nowrap}
+.burger{display:none;margin-left:auto;background:none;border:0;padding:10px;cursor:pointer}
+.burger span{display:block;width:26px;height:2px;background:var(--k);margin:6px 0;transition:transform .2s,opacity .2s}
+.mnav{display:none}
+/* hero */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;flex-direction:column;justify-content:center;overflow:hidden;background:#E9EBEC}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:62% 60%}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(244,246,247,.7) 0%,rgba(244,246,247,.45) 40%,rgba(244,246,247,0) 62%);z-index:1}
+.hero .wrap{position:relative;z-index:2;padding:72px 0 150px}
+.hero h1{font-size:clamp(46px,6.4vw,96px);max-width:9.5em;line-height:.98}
+.hero .lead{margin-top:22px;max-width:30em;font-size:clamp(18px,1.45vw,21px);color:#30363A}
+.hero .act{margin-top:34px;display:flex;flex-wrap:wrap;align-items:center;gap:18px 26px}
+.hero .who{font-size:16px;color:var(--s)}
+.hero .who b{color:var(--k);font-weight:600;display:block;font-size:17px}
+.stair{position:absolute;z-index:2;right:var(--gut);bottom:0;display:grid;grid-template-columns:repeat(4,var(--q));grid-auto-rows:var(--q);gap:calc(var(--q)*.14);--q:clamp(34px,4.6vw,84px)}
+.stair i{display:block}
+.stair .a{background:var(--g1)}.stair .b{background:var(--g2)}.stair .c{background:var(--g3)}.stair .d{background:var(--g4)}
+.stair span{font-size:clamp(14px,1vw,17px);line-height:1.15;font-weight:600;color:var(--k);align-self:center;padding-left:4px;white-space:nowrap}
+/* trio */
+.trio{border-bottom:1px solid var(--l)}
+.trio .wrap{display:grid;grid-template-columns:repeat(3,1fr)}
+.trio .it{padding:34px 28px 34px 0;display:flex;gap:18px;align-items:flex-start}
+.trio .it+.it{padding-left:28px;border-left:1px solid var(--l)}
+.trio h2{font-size:22px;line-height:1.15}
+.trio p{color:var(--s);font-size:16px;margin-top:4px}
+.mk{flex:none;display:grid;grid-template-columns:repeat(3,9px);grid-template-rows:repeat(3,9px);gap:3px;margin-top:6px}
+.mk i{background:var(--g1)}
+.mk i:nth-child(2){background:var(--g2)}.mk i:nth-child(3){background:var(--g3)}
+/* sections */
+.sec{padding:clamp(70px,9vw,128px) 0}
+.sec.grey{background:var(--c)}
+.head{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:clamp(34px,4vw,56px)}
+.head p{max-width:34em;color:var(--s)}
+.head .steps{margin-bottom:14px}
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(36px,6vw,96px);align-items:start}
+.portrait{margin:0;max-width:420px}.portrait .ph{position:relative}
+.portrait img{width:100%;aspect-ratio:1;object-fit:cover;object-position:50% 20%}
+.portrait .steps{position:absolute;right:-16px;bottom:-16px}
+.portrait .steps i{width:30px;height:30px}
+.portrait figcaption{margin-top:30px;font-size:16px;color:var(--s)}
+.portrait figcaption b{display:block;color:var(--k);font-size:19px;font-weight:600}
+.about h2{max-width:13em}
+.about .txt{margin-top:24px;display:grid;gap:16px;max-width:38em}
+.vals{margin-top:44px;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--l)}
+.vals div{padding:22px 20px 0 0}
+.vals h3{font-size:30px;display:flex;align-items:baseline;gap:10px}
+.vals h3::before{content:"";width:12px;height:12px;flex:none;background:var(--g1)}
+.vals div:nth-child(2) h3::before{background:var(--g2)}.vals div:nth-child(3) h3::before{background:var(--g3)}
+.vals p{color:var(--s);font-size:16px;margin-top:6px}
+/* offer */
+.tabs{display:flex;gap:0;border-bottom:1px solid var(--l);overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{flex:none;background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:14px 22px 14px 0;margin-right:22px;font:600 19px/1.2 "BSC","Barlow",sans-serif;color:var(--s);cursor:pointer;display:flex;align-items:center;gap:10px}
+.tabs button .steps i{width:8px;height:8px;background:var(--l)!important}
+.tabs button[aria-selected=true]{color:var(--k);border-bottom-color:var(--g1)}
+.tabs button[aria-selected=true] .steps i:nth-child(1){background:var(--g1)!important}.tabs button[aria-selected=true] .steps i:nth-child(2){background:var(--g2)!important}.tabs button[aria-selected=true] .steps i:nth-child(3){background:var(--g3)!important}.tabs button[aria-selected=true] .steps i:nth-child(4){background:var(--g4)!important}
+.panel{padding-top:40px}
+.panel[hidden]{display:none}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,80px)}
+.cols h3{padding-bottom:14px;border-bottom:1px solid var(--l);margin-bottom:6px}
+.list{list-style:none;margin:0;padding:0}
+.list li{position:relative;padding:12px 0 12px 26px;border-bottom:1px solid var(--l);font-size:17px}
+.list li::before{content:"";position:absolute;left:0;top:21px;width:9px;height:9px;background:var(--g2)}
+.list li ul{list-style:none;padding:6px 0 0;margin:0;color:var(--s);font-size:16px}
+.list li ul li{border:0;padding:3px 0 3px 18px}
+.list li ul li::before{width:6px;height:6px;top:13px;background:var(--g3)}
+.small{grid-column:1/-1;color:var(--s);font-size:17px}
+.small a{color:var(--gd);font-weight:600}
+/* partner (dark) */
+.dark{background:var(--dk);color:#D9DEE1}
+.dark h2,.dark h3{color:#fff}
+.partner{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:clamp(36px,6vw,96px);align-items:center}
+.partner .txt{margin-top:24px;display:grid;gap:16px;max-width:36em}
+.partner figure{margin:0;position:relative}
+.partner figure img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.route{margin-top:clamp(56px,7vw,96px);display:grid;grid-template-columns:repeat(3,1fr);align-items:end;gap:0}
+.route div{border-left:1px solid rgba(255,255,255,.18);padding:0 26px 0 22px}
+.route .bar{display:flex;flex-direction:column;gap:5px;margin-bottom:22px}
+.route .bar i{display:block;height:14px;width:14px}
+.route h3{font-size:24px}
+.route p{font-size:16px;margin-top:8px;color:#B9C0C5}
+/* links */
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(24px,4vw,60px)}
+.links h3{font-size:20px;padding-bottom:12px;border-bottom:1px solid var(--l)}
+.links ul{list-style:none;padding:0;margin:0}
+.links li a{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--l);text-decoration:none;font-size:17px}
+.links li a span{color:var(--s);font-size:15px;text-align:right}
+.links li a:hover{color:var(--gd)}
+/* blog */
+.post{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(30px,5vw,80px);align-items:center;background:#fff;border:1px solid var(--l)}
+.post figure{margin:0;height:100%}
+.post figure img{width:100%;height:100%;min-height:280px;object-fit:cover}
+.post .in{padding:34px 34px 34px 0}
+.post .meta{font-size:15px;color:var(--s)}
+.post h3{font-size:clamp(26px,2.4vw,34px);margin:10px 0 14px}
+.post ul{margin:14px 0 22px;padding-left:20px;color:var(--s);font-size:16px}
+.post a.more{font-weight:600;color:var(--gd)}
+/* contact */
+.contact{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(36px,6vw,96px)}
+.card dl{margin:28px 0 0;display:grid;gap:18px}
+.card dt{font-size:15px;color:var(--s)}
+.card dd{overflow-wrap:anywhere;margin:2px 0 0;font-size:19px;font-weight:600;color:var(--k)}
+.card dd a{text-decoration:none}
+.card dd a:hover{color:var(--gd)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px}
+label{display:grid;gap:6px;font-size:15px;font-weight:600;color:var(--k)}
+label.f{grid-column:1/-1}
+input,textarea,select{font:inherit;font-size:17px;padding:13px 14px;border:1px solid #C4CACE;border-radius:2px;background:#fff;color:var(--k);width:100%}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--g1);outline-offset:0;border-color:var(--g1)}
+textarea{min-height:130px;resize:vertical}
+.chk{grid-column:1/-1;display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:14px;color:var(--s)}
+.chk input{width:18px;height:18px;margin-top:3px;flex:none;accent-color:var(--gd)}
+.fx{grid-column:1/-1;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.note{font-size:15px;color:var(--gd);font-weight:600}
+.map{margin-top:clamp(50px,6vw,80px);position:relative;height:360px;background:var(--c);display:flex;flex-direction:column;gap:18px;align-items:center;justify-content:center;text-align:center;padding:20px}
+.map p{font-size:17px;color:var(--s)}
+.map button{position:relative;background:var(--dk);color:#fff;border:0;padding:15px 22px;font:600 17px/1.2 "Barlow",sans-serif;cursor:pointer;border-radius:2px}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+/* footer */
+.ft{background:var(--c);padding:44px 0 30px;font-size:15px;color:var(--s)}
+.ft .top{display:grid;grid-template-columns:auto 1fr 1fr 1fr;gap:30px 50px;align-items:start}
+.ft img{height:52px;width:auto}
+.ft b{display:block;color:var(--k);font-weight:600;margin-bottom:6px}
+.ft a{text-decoration:none}.ft a:hover{color:var(--gd)}
+.ft .bot{margin-top:34px;padding-top:18px;border-top:1px solid var(--l);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+@media (min-width:1700px){:root{--w:1440px}body{font-size:19px}}
+@media (max-width:1180px){.nav a{padding:10px 8px;font-size:16px}.nav a::after{left:8px}.hd .wrap{gap:16px}}
+@media (max-width:1040px){
+ .nav,.hd .tel{display:none}.burger{display:block}
+ .mnav{position:fixed;inset:var(--hh) 0 0;background:#fff;z-index:49;padding:16px var(--gut) 30px;flex-direction:column;overflow:auto}
+ .mnav.open{display:flex}
+ .mnav a{text-decoration:none;font:600 26px/1.2 "BSC","Barlow",sans-serif;color:var(--k);padding:15px 0;border-bottom:1px solid var(--l);display:flex;align-items:center;gap:14px}
+ .mnav a::before{content:"";width:10px;height:10px;background:var(--g1)}
+ .mnav .mt{margin-top:26px;font-size:17px;color:var(--s);display:grid;gap:6px}
+ .mnav .mt a{font:600 20px/1.3 "Barlow",sans-serif;border:0;padding:0}
+ .mnav .mt a::before{display:none}
+ body.mo .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}body.mo .burger span:nth-child(2){opacity:0}body.mo .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+ .about,.partner,.contact{grid-template-columns:1fr}
+ .portrait{max-width:340px}
+ .links{grid-template-columns:1fr 1fr}
+ .ft .top{grid-template-columns:1fr 1fr}
+ .ft .top>div:first-child{grid-column:1/-1}
+}
+@media (max-width:760px){
+ :root{--hh:64px}
+ body{font-size:17px}
+ .logo img{height:46px}
+ .hero{min-height:calc(100svh - var(--hh));justify-content:flex-start}
+ .hero picture img{object-position:50% 100%}
+ .hero::before{background:linear-gradient(180deg,rgba(244,246,247,.85) 0%,rgba(244,246,247,.6) 50%,rgba(244,246,247,0) 72%)}
+ .hero .wrap{padding:30px 0 130px}
+ .hero h1{font-size:clamp(42px,12.4vw,56px)}
+ .hero .lead{margin-top:16px;font-size:17px}
+ .hero .act{margin-top:26px}
+ .hero .who{display:none}
+ .stair{--q:30px;right:auto;left:var(--gut)}
+ .stair span{font-size:0}
+ .trio .wrap{grid-template-columns:1fr}
+ .trio .it,.trio .it+.it{padding:22px 0;border-left:0}
+ .trio .it+.it{border-top:1px solid var(--l)}
+ .head{display:block}
+ .head p{margin-top:14px}
+ .vals{grid-template-columns:1fr}
+ .vals div{padding:18px 0 14px;border-bottom:1px solid var(--l)}
+ .cols{grid-template-columns:1fr}
+ .tabs button{font-size:17px;padding-right:0;margin-right:22px}
+ .route{grid-template-columns:1fr;gap:28px}
+ .route div{padding:0 0 0 18px}
+ .route .bar{flex-direction:row;margin-bottom:12px}
+ .links{grid-template-columns:1fr}
+ .post{grid-template-columns:1fr}
+ .post figure img{min-height:200px;max-height:240px}
+ .post .in{padding:0 20px 26px}
+ form{grid-template-columns:1fr}
+ .map{height:300px}
+ .ft .top{gap:22px 20px}
+ .ft .top>div:nth-child(3){grid-column:1/-1}
+ .ft .top>div{min-width:0;overflow-wrap:anywhere}
+}
+</style>
+</head>
+<body>
+<header class="hd" id="hd">
+ <div class="wrap">
+  <a class="logo" href="#top" aria-label="PHARMAMED.PL Regulatory Services"><img src="img/logo-240.webp" srcset="img/logo-240.webp 1x, img/logo-480.webp 2x" width="123" height="54" alt="PHARMAMED.PL Regulatory Services"></a>
+  <nav class="nav" aria-label="Main">
+   <a href="#about">About</a><a href="#offer">Offer</a><a href="#partner">Local partner</a><a href="#links">Links</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="tel" href="tel:+48500240067">+48 500 240 067</a>
+  <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span></span></button>
+ </div>
+</header>
+<nav class="mnav" id="mnav" aria-label="Mobile">
+ <a href="#about">About</a><a href="#offer">Offer</a><a href="#partner">Local partner</a><a href="#links">Links</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+ <div class="mt">Monika Korycińska-Matyaszewska<a href="tel:+48500240067">+48 500 240 067</a><a href="mailto:monika.korycinska@pharmamed.pl">monika.korycinska@pharmamed.pl</a></div>
+</nav>
+
+<main id="top">
+<section class="hero">
+ <picture>
+  <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" sizes="100vw">
+  <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-1920.webp 1920w" sizes="100vw" width="1920" height="1198" alt="Capsules and a medicine pack on a white table" fetchpriority="high">
+ </picture>
+ <div class="wrap">
+  <h1>From concept to approval, step&nbsp;by&nbsp;step</h1>
+  <p class="lead">Regulatory services in Poland for medicinal products, medical devices, FSMP and cosmetics. Registration, variations and dialogue with the Polish authorities - handled by one experienced person.</p>
+  <div class="act">
+   <a class="btn" href="#contact">Let's talk about your product <span class="st" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span></a>
+   <p class="who"><b>Monika Korycińska-Matyaszewska</b>20 years in the pharma industry, Warsaw</p>
+  </div>
+ </div>
+ <div class="stair" aria-hidden="true">
+  <i class="a"></i><span>Approval</span><span></span><span></span>
+  <i class="a"></i><i class="b"></i><span>Filing</span><span></span>
+  <i class="a"></i><i class="b"></i><i class="c"></i><span>Dossier</span>
+  <i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i>
+ </div>
+</section>
+
+<section class="trio" aria-label="How I work">
+ <div class="wrap">
+  <div class="it"><span class="mk" aria-hidden="true"><i style="grid-area:3/1"></i></span><div><h2>Fast response</h2><p>Time matters in every procedure.</p></div></div>
+  <div class="it"><span class="mk" aria-hidden="true"><i style="grid-area:3/1"></i><i style="grid-area:3/2"></i><i style="grid-area:2/1;background:var(--g1)"></i></span><div><h2>Guaranteed delivery time</h2><p>Deadlines agreed up front and kept.</p></div></div>
+  <div class="it"><span class="mk" aria-hidden="true"><i style="grid-area:3/1"></i><i style="grid-area:3/2"></i><i style="grid-area:3/3"></i><i style="grid-area:2/1;background:var(--g1)"></i><i style="grid-area:2/2;background:var(--g2)"></i><i style="grid-area:1/1;background:var(--g1)"></i></span><div><h2>Flexibility</h2><p>Scope tailored to individual needs.</p></div></div>
+ </div>
+</section>
+
+<section class="sec" id="about">
+ <div class="wrap about">
+  <figure class="portrait">
+   <div class="ph"><img src="img/monika.webp" width="350" height="350" loading="lazy" alt="Monika Korycińska-Matyaszewska">
+   <span class="steps" aria-hidden="true"><i></i><i></i><i></i><i></i></span></div>
+   <figcaption><b>Monika Korycińska-Matyaszewska</b>Regulatory affairs consultant, chemist by education</figcaption>
+  </figure>
+  <div>
+   <h2>Tailor-made regulatory solutions, not a one-size procedure</h2>
+   <div class="txt">
+    <p>My skills and knowledge were shaped by 20 years in the pharmaceutical industry. After a chemistry degree I spent three years in R&amp;D at a Polish pharmaceutical company, where I moved an anxiolytic active substance from lab to production scale - and that is how I met regulatory CMC work.</p>
+    <p>Then came years in regulatory affairs at several pharmaceutical companies, most recently as Department Regulatory Affairs Manager at Fresenius Kabi Polska. Today I work as an independent consultant for clients who need a partner that knows Polish and EU law. In doubtful cases I rely on a scientific basis.</p>
+   </div>
+   <div class="vals">
+    <div><h3>Listen</h3><p>with commitment</p></div>
+    <div><h3>Talk</h3><p>to understand better</p></div>
+    <div><h3>Advise</h3><p>how to develop your ideas and business</p></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="sec grey" id="offer">
+ <div class="wrap">
+  <div class="head">
+   <div><span class="steps" aria-hidden="true"><i></i><i></i><i></i><i></i></span><h2>Offer</h2></div>
+   <p>The full range of services from registration to maintenance of your products - whether your company is just starting or has been on the market for years.</p>
+  </div>
+  <div class="tabs" role="tablist">
+   <button role="tab" aria-selected="true" aria-controls="p1" id="t1"><span class="steps" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Medicinal products</button>
+   <button role="tab" aria-selected="false" aria-controls="p2" id="t2" tabindex="-1"><span class="steps" aria-hidden="true"><i></i><i></i><i></i></span>Medical devices</button>
+   <button role="tab" aria-selected="false" aria-controls="p3" id="t3" tabindex="-1"><span class="steps" aria-hidden="true"><i></i><i></i></span>FSMP</button>
+   <button role="tab" aria-selected="false" aria-controls="p4" id="t4" tabindex="-1"><span class="steps" aria-hidden="true"><i></i></span>Cosmetics</button>
+  </div>
+  <div class="panel" role="tabpanel" id="p1" aria-labelledby="t1">
+   <div class="cols">
+    <div>
+     <h3>Pre-registration and registration</h3>
+     <ul class="list">
+      <li>Planning the registration strategy, taking legal elements into account</li>
+      <li>Reviewing registration possibilities and choosing the optimal procedure</li>
+      <li>Audit of registration documentation and readiness to start the procedure</li>
+      <li>Expert reports - Quality Overall Summary (Module 2.3)</li>
+      <li>Compilation of the chemical and pharmaceutical part of the dossier (Module 3)</li>
+      <li>Organising and preparing pre-submission meetings</li>
+      <li>Preparing and translating Product Information (SmPC, PIL, labels) according to QRD templates</li>
+      <li>Bridging reports with leaflet readability tests</li>
+      <li>Conducting national, MRP and DCP procedures</li>
+      <li>Filing the application
+       <ul><li>Module 1 and submission to local authorities</li><li>Monitoring the process and active dialogue with the authorities</li><li>Support with answers to questions raised during the procedure</li></ul></li>
+     </ul>
+    </div>
+    <div>
+     <h3>Post-registration</h3>
+     <ul class="list">
+      <li>Monitoring all regulatory processes: variations of all types, renewals, MA holder changes, notifications, MA withdrawals</li>
+      <li>Planning the strategy for post-registration variations</li>
+      <li>Filing variations
+       <ul><li>Completing variation documentation and submission</li><li>Monitoring the procedure and dialogue with local authorities</li><li>Support with answers to questions</li></ul></li>
+      <li>Communication with authorities: first placing on the market, temporary cessation and re-placement, sunset clause exemption, annual fees</li>
+      <li>Re-formatting the dossier to CTD / NeeS</li>
+      <li>Development and adjustment of SmPC, PIL and labels</li>
+      <li>Verification of packaging and leaflet artwork against local requirements</li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
+   <div class="cols">
+    <div><h3>Medical devices</h3>
+     <ul class="list"><li>Polish translation of the Instructions for Use and labelling</li><li>Notification of a medical device to the local authority (URPL)</li></ul></div>
+    <div><h3>Good to know</h3><ul class="list"><li>UDI and EUDAMED under Regulations (EU) 2017/745 and 2017/746 - see the article in the blog</li></ul></div>
+   </div>
+  </div>
+  <div class="panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
+   <div class="cols">
+    <div><h3>Food for special medical purposes</h3>
+     <ul class="list"><li>Support in preparing the label translation</li><li>Notification to the local authority (GIS)</li></ul></div>
+   </div>
+  </div>
+  <div class="panel" role="tabpanel" id="p4" aria-labelledby="t4" hidden>
+   <div class="cols"><p class="small">Cosmetics are handled individually - describe your product and I will reply with the scope of support. <a href="#contact">Write to me</a></p></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec dark" id="partner">
+ <div class="wrap">
+  <div class="partner">
+   <div>
+    <h2>Your local partner in Poland</h2>
+    <div class="txt">
+     <p>Considering registration of a medicinal product, a medical device or FSMP, and looking for a partner in Poland you can safely entrust with confidential information? I know and understand the requirements of the regulators here.</p>
+     <p>My office is in Warsaw, close to the Polish Agency. Grant me power of attorney for local representation, and I will file applications, monitor the processes and contact the Agency on your behalf - so your company can focus on the business.</p>
+    </div>
+   </div>
+   <figure><img src="img/partner-800.webp" srcset="img/partner-800.webp 800w, img/partner-1280.webp 1280w" sizes="(max-width:1040px) 100vw, 46vw" width="1280" height="833" loading="lazy" alt="Signing documents at a desk"></figure>
+  </div>
+  <div class="route">
+   <div><span class="bar" aria-hidden="true"><i style="background:var(--g1)"></i></span><h3>Strategy</h3><p>Optimal procedure, audit of documentation, pre-submission meeting.</p></div>
+   <div><span class="bar" aria-hidden="true"><i style="background:var(--g2)"></i><i style="background:var(--g1)"></i></span><h3>Dossier and filing</h3><p>Module 1, 2.3 and 3, Product Information, submission to the authorities.</p></div>
+   <div><span class="bar" aria-hidden="true"><i style="background:var(--g3)"></i><i style="background:var(--g2)"></i><i style="background:var(--g1)"></i></span><h3>Approval and maintenance</h3><p>Answers to questions, variations, renewals and notifications for the life of the product.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec" id="links">
+ <div class="wrap">
+  <div class="head"><div><span class="steps" aria-hidden="true"><i></i><i></i><i></i><i></i></span><h2>Useful links</h2></div><p>Authorities and institutions I work with every day.</p></div>
+  <div class="links">
+   <div><h3>Poland</h3><ul>
+    <li><a href="https://www.urpl.gov.pl/pl" rel="noopener" target="_blank">URPL <span>Office for Registration of Medicinal Products</span></a></li>
+    <li><a href="https://www.gif.gov.pl/" rel="noopener" target="_blank">GIF <span>Chief Pharmaceutical Inspectorate</span></a></li>
+    <li><a href="https://gis.gov.pl/" rel="noopener" target="_blank">GIS <span>Chief Sanitary Inspectorate</span></a></li>
+    <li><a href="https://www.gov.pl/zdrowie/" rel="noopener" target="_blank">Ministry of Health</a></li>
+    <li><a href="https://www.pzh.gov.pl/" rel="noopener" target="_blank">NIZP PZH</a></li>
+   </ul></div>
+   <div><h3>European Union</h3><ul>
+    <li><a href="https://www.ema.europa.eu/" rel="noopener" target="_blank">EMA <span>European Medicines Agency</span></a></li>
+    <li><a href="https://www.hma.eu/" rel="noopener" target="_blank">HMA <span>Heads of Medicines Agencies</span></a></li>
+    <li><a href="https://ec.europa.eu/health/" rel="noopener" target="_blank">European Commission <span>Public health</span></a></li>
+    <li><a href="https://eur-lex.europa.eu/" rel="noopener" target="_blank">EUR-Lex</a></li>
+    <li><a href="https://www.edqm.eu/" rel="noopener" target="_blank">EDQM</a></li>
+   </ul></div>
+   <div><h3>International</h3><ul>
+    <li><a href="https://www.ich.org/" rel="noopener" target="_blank">ICH</a></li>
+    <li><a href="https://www.meddra.org/" rel="noopener" target="_blank">MedDRA</a></li>
+   </ul></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec grey" id="blog">
+ <div class="wrap">
+  <div class="head"><div><span class="steps" aria-hidden="true"><i></i><i></i><i></i><i></i></span><h2>Blog</h2></div><p>Practical notes on regulations and procedures.</p></div>
+  <article class="post">
+   <figure><img src="img/rozmowa-800.webp" width="800" height="566" loading="lazy" alt="Business conversation at a table"></figure>
+   <div class="in">
+    <p class="meta">Article in Polish · Medical devices</p>
+    <h3 lang="pl">UDI nie taki wilk straszny, jak go malują</h3>
+    <p>What the UDI system and the EUDAMED database mean for manufacturers under Regulations (EU) 2017/745 and 2017/746.</p>
+    <ul lang="pl"><li>Dlaczego baza EUDAMED jest sercem systemu UDI?</li><li>Kod UDI a opakowanie wyrobu medycznego</li><li>Gdzie i od kogo uzyskasz kod UDI?</li></ul>
+    <a class="more" href="#blog">Read the article</a>
+   </div>
+  </article>
+ </div>
+</section>
+
+<section class="sec" id="contact">
+ <div class="wrap contact">
+  <div class="card">
+   <h2>Let's talk</h2>
+   <p style="margin-top:16px;color:var(--s);max-width:28em">Describe your product and the procedure you are planning. I will reply with the next steps.</p>
+   <dl>
+    <div><dt>Head office</dt><dd>PHARMAMED.PL Monika Korycińska-Matyaszewska<br><span style="font-weight:400">Okińskiego 6 m 59, 02-115 Warsaw, Poland</span></dd></div>
+    <div><dt>Phone</dt><dd><a href="tel:+48500240067">+48 500 240 067</a></dd></div>
+    <div><dt>E-mail</dt><dd><a href="mailto:monika.korycinska@pharmamed.pl">monika.korycinska@pharmamed.pl</a></dd></div>
+   </dl>
+  </div>
+  <form id="form" novalidate>
+   <label>Name<input name="n" autocomplete="name" required></label>
+   <label>Company<input name="c" autocomplete="organization"></label>
+   <label>E-mail<input name="e" type="email" autocomplete="email" required></label>
+   <label>Product type<select name="t"><option>Medicinal product</option><option>Medical device</option><option>FSMP</option><option>Cosmetic</option><option>Other</option></select></label>
+   <label class="f">Message<textarea name="m"></textarea></label>
+   <label class="chk"><input type="checkbox" required> I agree to the processing of my personal data by PHARMAMED, Okińskiego 6 m 59, Warsaw, to answer my enquiry.</label>
+   <div class="fx"><button class="btn" type="submit">Send message <span class="st" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span></button><p class="note" id="note" role="status"></p></div>
+  </form>
+ </div>
+ <div class="wrap"><div class="map" id="map"><span class="steps" aria-hidden="true"><i></i><i></i><i></i><i></i></span><p>Okińskiego 6 m 59, 02-115 Warsaw</p><button type="button">Show the office on Google Maps</button></div></div>
+</section>
+</main>
+
+<footer class="ft">
+ <div class="wrap">
+  <div class="top">
+   <div><img src="img/logo-240.webp" srcset="img/logo-240.webp 1x, img/logo-480.webp 2x" width="119" height="52" alt="PHARMAMED.PL" loading="lazy"></div>
+   <div><b>PHARMAMED.PL</b>Monika Korycińska-Matyaszewska<br>Okińskiego 6 m 59<br>02-115 Warsaw</div>
+   <div><b>Contact</b><a href="tel:+48500240067">+48 500 240 067</a><br><a href="mailto:monika.korycinska@pharmamed.pl">monika.korycinska@pharmamed.pl</a></div>
+   <div><b>Offer</b><a href="#offer">Medicinal products</a><br><a href="#offer">Medical devices</a><br><a href="#offer">FSMP and cosmetics</a></div>
+  </div>
+  <div class="bot">
+   <span>© 2026 PHARMAMED.PL Regulatory Services</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=pharmamed.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>
